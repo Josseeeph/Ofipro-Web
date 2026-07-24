@@ -7,43 +7,104 @@
 </head>
 <body>
 
-    <!-- Encabezado Principal de la Página -->
+    <!-- Encabezado Principal -->
     <header>
         <h1>OFIPRO</h1>
         <p><b>Estudiante:</b> Jose Montes Fabrica</p>
-        <p><em>Encuentra profesionales de confianza para tus proyectos y reparaciones.</em></p>
+        <p><em>Conectamos a profesionales de oficios con clientes que necesitan trabajos garantizados.</em></p>
+        
+        <!-- Menú de Navegación del Sitio -->
+        <nav>
+            <ul>
+                <li><a href="#categorias">Categorías</a></li>
+                <li><a href="#sobre-nosotros">¿Qué es OFIPRO?</a></li>
+                <li><a href="#destacados">Profesionales</a></li>
+                <li><a href="#cotizacion">Solicitar Cotización</a></li>
+            </ul>
+        </nav>
     </header>
 
     <hr>
 
-    <section>
-        <h2>Categorías Principales</h2>
-        <p>Selecciona el tipo de especialista que necesitas:</p>
-        <ul>
-            <li>⚡ <b>Electricidad:</b> Instalaciones, tableros y reparaciones.</li>
-            <li>🔧 <b>Plomería:</b> Fugas, grifería y tuberías.</li>
-            <li>🪛 <b>Carpintería:</b> Muebles a medida y mantenimiento.</li>
-            <li>🏍️ <b>Mecánica:</b> Mantenimiento preventivo y diagnósticos.</li>
-        </ul>
-    </section>
+    <!-- Contenido Principal de la Página -->
+    <main>
+
+        <!-- Sección 1: Categorías de Servicios -->
+        <section id="categorias">
+            <h2>Categorías Principales</h2>
+            <p>Explora nuestros especialistas organizados por área de trabajo:</p>
+            <ul>
+                <li>⚡ <b>Electricidad:</b> Mantenimiento de redes, cableado de tableros y reparación de cortocircuitos.</li>
+                <li>🔧 <b>Plomería:</b> Instalación de tuberías, detección de fugas y mantenimiento de grifería.</li>
+                <li>🪛 <b>Carpintería:</b> Fabricación de muebles a medida, barnizado y reparación de puertas.</li>
+                <li>🏍️ <b>Mecánica:</b> Mantenimiento preventivo, cambio de suspensión y diagnósticos generales.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Sección 2: Sobre el Proyecto -->
+        <section id="sobre-nosotros">
+            <h2>¿Qué es OFIPRO?</h2>
+            <p>OFIPRO es la plataforma donde trabajadores independientes de distintos oficios muestran su trabajo mediante galerías fotográficas y calificaciones de clientes reales. Resolvemos la falta de confianza al contratar técnicos para reparaciones en el hogar o negocio.</p>
+        </section>
+
+        <hr>
+
+        <!-- Sección 3: Perfiles de Profesionales Destacados -->
+        <section id="destacados">
+            <h2>Profesionales Destacados</h2>
+
+            <article>
+                <h3>Carlos Ruiz — Técnico Plomero</h3>
+                <p><b>Calificación:</b> ★★★★★ (4.9 / 5.0)</p>
+                <p><b>Especialidad:</b> Reparación de fugas e instalaciones hidráulicas en viviendas.</p>
+                <p><b>Reseña reciente:</b> <em>"Excelente trabajo, solucionó una filtración que otros no detectaban y fue puntual."</em> — María G.</p>
+            </article>
+
+            <br>
+
+            <article>
+                <h3>Juan Pérez — Electricista Certificado</h3>
+                <p><b>Calificación:</b> ★★★★★ (4.8 / 5.0)</p>
+                <p><b>Especialidad:</b> Balanceo de cargas, tableros eléctricos e instalaciones comerciales.</p>
+                <p><b>Reseña reciente:</b> <em>"Muy ordenado en el trabajo del tablero principal de mi casa. Totalmente recomendado."</em> — Pedro A.</p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Sección 4: Formulario de Contacto y Cotizaciones -->
+        <section id="cotizacion">
+            <h2>Solicita una Cotización Directa</h2>
+            <p>Completa el formulario para recibir presupuestos de profesionales disponibles en tu zona:</p>
+            
+            <form>
+                <p>
+                    <label for="nombre"><b>Nombre completo:</b></label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Roberto Gómez">
+                </p>
+                <p>
+                    <label for="servicio"><b>Servicio requerido:</b></label><br>
+                    <input type="text" id="servicio" name="servicio" placeholder="Ej. Plomería o Electricidad">
+                </p>
+                <p>
+                    <label for="detalle"><b>Detalle del trabajo o falla:</b></label><br>
+                    <textarea id="detalle" name="detalle" rows="4" cols="45" placeholder="Describe brevemente qué trabajo necesitas realizar..."></textarea>
+                </p>
+                <p>
+                    <button type="button">Enviar Cotización</button>
+                </p>
+            </form>
+        </section>
+
+    </main>
 
     <hr>
 
-    <section>
-        <h2>Profesionales Destacados</h2>
-
-    </section>
-
-    <hr>
-
-    <section>
-        <h2>Solicita una Cotización Directa</h2>
-        
-    </section>
-
-    <hr>
-
+    <!-- Pie de Página -->
     <footer>
+        <p><b>Contacto:</b> soporte@ofipro.com | Cochabamba, Bolivia</p>
         <p>&copy; 2026 OFIPRO - Todos los derechos reservados.</p>
     </footer>
 
