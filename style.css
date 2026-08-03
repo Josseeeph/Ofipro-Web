@@ -121,3 +121,50 @@ footer {
         width: 100%; 
     }
 }
+
+#btn-tema {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+#btn-tema {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    font-weight: bold;
+}
+
+body.oscuro {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.oscuro header, 
+body.oscuro footer {
+    background-color: #111;
+}
+
+body.oscuro main, 
+body.oscuro form, 
+body.oscuro article {
+    background-color: #2a2a2a;
+    border-color: #444;
+    color: #e0e0e0;
+}
+
+body.oscuro h2 {
+    color: #fff;
+    border-bottom: 2px solid #555;
+}
+
+body.oscuro article h3 {
+    color: #66b3ff;
+}
