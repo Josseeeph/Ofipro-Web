@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -55,6 +57,7 @@ ul {
 
 article {
     border: 1px solid #ccc;
+    border-radius: 8px;
     padding: 15px;
     background-color: #fafafa;
     margin-bottom: 15px;
@@ -69,15 +72,18 @@ form {
     background-color: #f9f9f9;
     padding: 20px;
     border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
 input[type="text"],
+input[type="email"],
 textarea {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
@@ -86,6 +92,7 @@ button {
     color: white;
     padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     font-weight: bold;
 }
