@@ -1,3 +1,65 @@
-<html>
-    <h1>Hola Mundo</h1>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barberia Don Figaro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="inicio">
+        <h1>Barberia Don Figaro</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a> 
+        </nav>
+    </header>
+
+    <main>
+        <section id="servicios">
+            <h2>Nuestros servicios</h2>
+            
+            <p>Si buscas un sevicio de calidad y un ambiente clasico,
+                caracteristico de los mejores tiempos en cuando a barberia. 
+                Barberia Don Figaro, Te ofrece el mejor estilo y atencion.
+            </p>
+            <ul>
+                <li>Corte clasico - Bs 25</li>
+                <li>Perfilado de barba - Bs 20</li>
+                <li>Corte y barba - Bs 40</li>
+            </ul>
+
+        </section>
+
+        <section id="contacto">
+            <h2>Reserva tu turno</h2>
+            <form>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" required>
+
+                <label for="correo">Correo Electronico</label>
+                <input type="email" id="correo" required>
+
+                <label for="comentario">Tu comentario</label>
+                <textarea id="comentario"></textarea>
+            </form>
+
+            <button type="button" id="btn-confirmar">confirmar turno</button>
+            <p id="mensaje" class="oculto"></p>
+        </section>
+     
+    </main>
+
+    <footer> 
+        <p>Parcial 1 - Montes Fabrica Jose - 3 de agosto de 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+    
 </html>
+
