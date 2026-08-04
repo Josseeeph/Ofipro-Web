@@ -11,3 +11,44 @@ header {
     text-align: center;
     padding: 20px;
 }
+
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    border: 2px solid #222222;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.oculto { 
+    display: none; 
+}
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
