@@ -168,3 +168,38 @@ body.oscuro h2 {
 body.oscuro article h3 {
     color: #66b3ff;
 }
+
+.aviso {
+    display: none;
+    margin-top: 14px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.aviso.error {
+    display: block;
+    background-color: #3a1414;
+    color: #ffb4b4;
+    border-left: 4px solid #e05555;
+}
+
+.aviso.exito {
+    display: block;
+    background-color: #14301b;
+    color: #b7f0c4;
+    border-left: 4px solid #3fbf6a;
+}
+
+/* Versión del aviso para el modo oscuro */
+body.oscuro .aviso.error {
+    background-color: #ffe6e6;
+    color: #8a1c1c;
+    border-left-color: #d13b3b;
+}
+
+body.oscuro .aviso.exito {
+    background-color: #e6f6ea;
+    color: #1b5e20;
+    border-left-color: #2e7d32;
+}
