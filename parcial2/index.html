@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optica Mirasol</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Optica Mirasol</h1>
+        <p>Somos la óptica de tu barrio.</p>
+    </header>
+
+    <main>
+        <form id="form-cita" novalidate method="POST" action="procesar.php">
+            
+            <p>
+                <label for="nombre">Nombre completo</label><br>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+
+            <p>
+                <label for="correo">Correo electrónico</label><br>
+                <input type="email" id="correo" name="correo" required>
+            </p>
+
+            <p>
+                <label for="consulta">Contanos qué necesitás</label><br>
+                <textarea id="consulta" name="consulta"></textarea>
+            </p>
+
+            <button type="submit">Pedir mi cita</button>
+            
+            <p id="aviso-cita" class="aviso"></p>
+
+        </form>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Parcial 2 - Jose Montes Fabrica - 11 de agosto de 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
