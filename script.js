@@ -16,10 +16,8 @@ const formularioCotizacion = document.querySelector("#form-cotizacion");
 const avisoCotizacion = document.querySelector("#aviso-cotizacion");
 
 function revisarCotizacion(event) {
-    // Freno de mano para que la página no se recargue sola
     event.preventDefault();
 
-    // Leemos el valor actual de los inputs
     const nombre = document.querySelector("#nombre").value;
     const correo = document.querySelector("#correo").value;
 
